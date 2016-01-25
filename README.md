@@ -1,4 +1,3 @@
-# tidydataUCI
 ## An R script written for the Getting and Cleaning Data Using R Coursera class
 
 **This R script was developed and run on Windows 8 using RStudio/R version 3.2.3 with packages plyr and dplyr installed.**  
