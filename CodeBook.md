@@ -1,21 +1,8 @@
-#Tidying data from the Human Recognition Using Smartphones Dataset from UCI
+## Tidying data from the Human Recognition Using Smartphones Dataset from UCI
 
-This codebook modifies and updates information provided by the README.txt and features_info file that is downloaded along with the Human Recognition Using Smartphones Dataset from UCI found at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+**This codebook modifies and updates information provided by the README.txt and features_info file that is downloaded along with the Human Recognition Using Smartphones Dataset from UCI found at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip **
  
-## Acknowledgements for this information and dataset go to: 
-==================================================================
-Human Activity Recognition Using Smartphones Dataset
-Version 1.0
-==================================================================
-Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
-Smartlab - Non Linear Complex Systems Laboratory
-DITEN - Università degli Studi di Genova.
-Via Opera Pia 11A, I-16145, Genoa, Italy.
-activityrecognition@smartlab.ws
-www.smartlab.ws
-==================================================================
-
-## Study Design and processing of raw data (modified UCI description)
+#### Study design and processing of raw data 
 
 - The experiments were carried out on a group of 30 volunteers between the ages of 19 and 48. 
  
@@ -37,7 +24,7 @@ www.smartlab.ws
 
 - Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing freqBodyAcc-XYZ, freqBodyAccJerk-XYZ, freqBodyGyro-XYZ, freqBodyAccJerkMag, freqBodyGyroMag, freqBodyGyroJerkMag.
 
-## Codebook: List of Variables and units, summary choices   
+#### Codebook: List of Variables and units, summary choices   
 
 The tidydata set contains 180 observations and 68 variables. 
 
@@ -67,7 +54,7 @@ freqBodyBodyGyroMag;
 freqBodyBodyGyroJerkMag;
 
 License:
-========
+
 Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
