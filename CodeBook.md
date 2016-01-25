@@ -45,26 +45,26 @@ The tidydata set contains 180 observations and 68 variables.
 - Column 2 (class factor): activity--the activity monitored
 - Columns 3-68 (class numeric): The mean and standard deviation of the following features (normalized and bounded within [-1,1]), averaged by subjectid and activity: 
 
-timeBodyAcc-XYZ
-timeGravityAcc-XYZ
-timeBodyAccJerk-XYZ
-timeBodyGyro-XYZ
-timeBodyGyroJerk-XYZ
-timeBodyAccMag
-timeGravityAccMag
-timeBodyAccJerkMag
-timeBodyGyroMag
-timeBodyGyroJerkMag
-freqBodyAcc-XYZ
-freqBodyAccJerk-XYZ
-freqBodyGyro-XYZ
-freqBodyAccMag
-freqBodyAccJerkMag
-freqBodyGyroMag
-freqBodyGyroJerkMag 
-freqBodyBodyAccJerkMag
-freqBodyBodyGyroMag
-freqBodyBodyGyroJerkMag
+timeBodyAcc-XYZ;
+timeGravityAcc-XYZ;
+timeBodyAccJerk-XYZ;
+timeBodyGyro-XYZ;
+timeBodyGyroJerk-XYZ;
+timeBodyAccMag;
+timeGravityAccMag;
+timeBodyAccJerkMag;
+timeBodyGyroMag;
+timeBodyGyroJerkMag;
+freqBodyAcc-XYZ;
+freqBodyAccJerk-XYZ;
+freqBodyGyro-XYZ;
+freqBodyAccMag;
+freqBodyAccJerkMag;
+freqBodyGyroMag;
+freqBodyGyroJerkMag; 
+freqBodyBodyAccJerkMag;
+freqBodyBodyGyroMag;
+freqBodyBodyGyroJerkMag;
 
 License:
 ========

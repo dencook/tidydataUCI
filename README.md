@@ -3,7 +3,7 @@ An R script written for the Getting and Cleaning Data Using R Coursera class
 
 This R script was developed and run on Windows 8 using RStudio/R version 3.2.3 with packages plyr and dplyr installed.  
 
-#It uses the Human Activity Recognition Using Smartphones Dataset from UCI and creates two clean datasets.
+It uses the Human Activity Recognition Using Smartphones Dataset from UCI and creates two clean datasets.
 
 1. Cleandata: A dataset containing the merged training and test sets, measurements on mean and std, descriptive activity names and appropriate tidy variable names. 
 
