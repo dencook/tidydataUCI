@@ -25,12 +25,12 @@ features<-as.character(features[,2])
 #large dataset of processed accelerometer and gyroscope signals (x_test|train)
 
 path1= "./UCI HAR Dataset/test"
-files_test<-list.files(path1, pattern=".txt")
+files_test<-list.files(path1, pattern="\\.txt$")
 test<-bind_cols(lapply(paste(path1, files_test,sep="/"), read.table))
 names(test)<-c("subjectID", features,"activity")
 
 path2= "./UCI HAR Dataset/train"
-files_train<-list.files(path2, pattern=".txt")
+files_train<-list.files(path2, pattern="\\.txt$")
 train<-bind_cols(lapply(paste(path2, files_train,sep="/"), read.table))
 names(train)<-c("subjectID", features,"activity")
 
@@ -62,3 +62,4 @@ tidydata<- cleandata %>%
   group_by(activity, subjectid) %>%
   summarize_each(funs(mean), contains("Body"), contains("Gravity"))
 
+write.table(tidydata, "tidydata.txt", row.names=F)
